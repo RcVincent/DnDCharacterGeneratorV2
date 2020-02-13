@@ -54,5 +54,9 @@ namespace DnDCharacterGeneratorV2.Models
         public int Charisma { get; set; }
         public int Intelligence { get; set; }
 
+
+        //Backstory data
+        public string Alignment { get; set; }
+        //more to be added as needed
     }
 }
