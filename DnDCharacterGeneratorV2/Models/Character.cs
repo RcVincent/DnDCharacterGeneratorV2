@@ -41,9 +41,11 @@ namespace DnDCharacterGeneratorV2.Models
     public class Character
     {
         //core character data
+        public string Name { get; set; }
+        public int Level { get; set; }
         public int HP { get; set; }
         public int AC { get; set; }
-        public string Name { get; set; }
+        
         public int Proficiency { get; set; }
 
         //parameter data
@@ -57,6 +59,9 @@ namespace DnDCharacterGeneratorV2.Models
 
         //Backstory data
         public string Alignment { get; set; }
+
+        public Race get;
+
         //more to be added as needed
     }
 }
